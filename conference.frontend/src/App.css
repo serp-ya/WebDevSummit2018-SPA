@@ -1,0 +1,78 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-logo-box {
+  display: flex;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-body {
+  margin: 10px 50px 30px;
+}
+
+.App-nav-bar {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.App-nav-item {
+  margin: 5px 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #222;
+}
+
+.App-label-news-card {
+  border: 1px solid #222;
+  padding: 10px 20px;
+}
+
+.App-link {
+  color: inherit;
+}
+
+.App-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.App-input-field {
+  display: block;
+  width: 100%;
+  min-height: 20px;
+}
+
+.App-messages-box {
+  margin-bottom: 10px;
+  color: green;
+}
+
+.App-error-box {
+  margin-bottom: 10px;
+  color: red;
+}
+
+.App-delete-btn {
+  cursor: pointer;
+  text-decoration: underline;
+  color: red;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
